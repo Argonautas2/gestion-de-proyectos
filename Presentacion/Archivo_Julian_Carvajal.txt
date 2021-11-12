@@ -1,0 +1,14 @@
+Descripción del proyecto: Ciclo 4 - Desarrollo web
+
+Se propone plantear un modelo de sistema de información que soporte la gestión de proyectos de investigación y mejore los procesos.
+
+Nombre del Equipo: Argonautas
+
+Presentación: 
+
+Rol: Administrador de Bases de datos - Sprint 1
+Nombre: Julián Dario Carvajal Gutiérrez
+correo: juliandcarvajal@gmail.com
+
+Perfil: Ingeniero Mecánico Universidad de Antioquia, Estudiante de proceso de formación MisionTic2022 programador. 
+
