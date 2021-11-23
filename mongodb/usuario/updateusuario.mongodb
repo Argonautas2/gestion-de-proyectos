@@ -1,0 +1,5 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+
+db.usuario.updateOne ({ "nombre": "Julian"}, { $set: {"nombre":"Sandra"}})

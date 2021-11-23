@@ -1,0 +1,4 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+db.usuario.deleteOne ("_id":ObjectId ("619a8e19c8a1509f8ee5bd95"))

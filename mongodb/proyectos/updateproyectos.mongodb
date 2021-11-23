@@ -1,0 +1,5 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+
+db.proyectos.updateOne ({ "nombreProyecto": "Proyecto de software"}, { $set: {"nombreProyecto":"Proyecto Algoritmo"}})

@@ -1,0 +1,15 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+
+db.usuario.insertOne ({
+
+  "correo": "Sulian.Gonzalez@mail.com",
+  "documento": 12345678900,
+  "nombre": "Sulian",
+  "apellido": "Gonzalez",
+  "nombreCompleto": "Sulian Gonzalez",
+  "rol": "estudiante",
+  "estado": "autorizado",
+  "contrasena": "$2b$11$FEBywZh8u9M0Cec/0mWep.1kXrwKeiWDba6tdKvDfEBjyePJnDT7K"
+})

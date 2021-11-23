@@ -1,0 +1,47 @@
+
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+
+db.proyectos.insertOne ({
+
+  "nombreProyecto": "Proyecto Sprint2",
+  "objetivoGeneral": "Gestion de proyectos",
+  "objetivosEspecificos": "revisión",
+  "presupuesto": 15000000,
+  "fechaFin":  "2021-04-19T05:00:00Z",
+  "fechaInicio": "2020-02-21T05:00:00Z",
+  "lider": [
+    {
+      "documento": 125678930,
+      "nombre_lider": " Sandra Caballero"
+    }
+      ],
+  "inscripcion": [
+    {
+      "documento_Estudiante": 125678930,
+      "nombre_Estudiante": "Sandra Caballero",
+      "estado": "rechazado",
+      "fechaIngreso": {
+        "$date": " "},
+      "fechaEgreso": {
+        "$date": " "}
+    }
+  ],
+  "avance": [
+    {
+      "fecha_avances":{
+        "$date": " "},
+      "descripcion_avances": " ",
+      "observaciones": " ",
+    },
+  ],
+  "estadoProyecto": [
+    {
+      "estadoProyecto": "Inactivo",
+      "faseProyecto": "null",
+    }
+    
+  ],
+  
+})

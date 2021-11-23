@@ -1,0 +1,5 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+
+db.proyectos.find({nombreProyecto: "Proyecto de software"})

@@ -1,0 +1,4 @@
+const database= "GestionProyectoMisionTIC";
+use(database),
+
+db.usuario.find({})
